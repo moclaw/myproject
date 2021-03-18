@@ -1,4 +1,9 @@
-.dropbtn {
+*{
+  margin:0;
+  background-color:pink;
+}
+/* .dropbtn {
+  margin-top: 2.5rem;
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -6,7 +11,6 @@
   border: none;
 }
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .dropdown {
   position: relative;
@@ -26,4 +30,36 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+} */
+header{
+  display:flex;
+}
+nav{
+  float: right;
+}
+.text-slogan{
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-left: 6em;
+  font-size: 20px;
+  font-family: 'Syne Mono', monospace;
+  color: #fc1c03;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+body{
+  text-align: center;
+}
+img{
+  width:40%;
+  margin-top: 2em;
+  margin-left:1em;
+  margin-bottom:2em;
+}
+button{
+  width:60px;
+  background-color:gold;
+}
+a{
+  text-decoration: none;
 }
