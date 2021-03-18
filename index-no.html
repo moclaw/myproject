@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="10">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,26 +12,6 @@
 <header>
     <a class="text-slogan" target="_blank" href="https://www.facebook.com/mocrlaw">I HAVE A QUESTION</a>
 </header>
-<script>
-    function myFunction() {
-        var hour = new Date().getSeconds();
-        var greeting;
-        if (hour > 30) {
-            greeting = "Không được đâu bấm lại đi";
-        }
-         else if (hour > 10){
-            greeting = "Đừng làm thế tổn thương tuôi"
-        }
-        else  if(hour >20) {
-            greeting = "Đổi đi đừng làm thế"
-        }
-        else {
-            greeting = "Yes đi năn nỉ đó <3";
-        }
-        document.getElementById("demo").innerHTML = greeting;
-    }
-</script>
-
 <!--<nav>-->
 <!--	<div class="nav-menu">-->
 <!--	<div class="dropdown">-->
@@ -46,16 +25,12 @@
 <!--	</div>-->
 <!--</nav>-->
 <body>
-<h1>IF I GIVE YOU MY HEART!!</h1>
-<h1>
-    DO YOU TAKE IT?
-</h1>
+<h1>I GIVE YOU MY HEART DO YOU TAKE IT?</h1>
 <img alt="heart" src="img/hearth.png">
-<p id="demo"></p>
 <section>
     <button class="btn-yes"><a href="media/love.mp4">Yes</a></button>
-    <button onclick="myFunction()" id="btn-no"><a></a>No</button>
-
+    <button class="btn-no"><a href="index.html"></a>No</button>
+    <p>No là không được đâu :))</p>
 </section>
 <audio autoplay >
     <source src="media/heart.mp3" type="audio/ogg">
